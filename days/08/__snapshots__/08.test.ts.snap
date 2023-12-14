@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`08 part 1 parses test input correctly 1`] = `
+{
+  "navigation": [
+    "R",
+    "L",
+  ],
+  "nodes": {
+    "AAA": {
+      "left": "BBB",
+      "nodeName": "AAA",
+      "right": "CCC",
+    },
+    "BBB": {
+      "left": "DDD",
+      "nodeName": "BBB",
+      "right": "EEE",
+    },
+    "CCC": {
+      "left": "ZZZ",
+      "nodeName": "CCC",
+      "right": "GGG",
+    },
+    "DDD": {
+      "left": "DDD",
+      "nodeName": "DDD",
+      "right": "DDD",
+    },
+    "EEE": {
+      "left": "EEE",
+      "nodeName": "EEE",
+      "right": "EEE",
+    },
+    "GGG": {
+      "left": "GGG",
+      "nodeName": "GGG",
+      "right": "GGG",
+    },
+    "ZZZ": {
+      "left": "ZZZ",
+      "nodeName": "ZZZ",
+      "right": "ZZZ",
+    },
+  },
+}
+`;

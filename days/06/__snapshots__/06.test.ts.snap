@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`06 part 1 parses test input correctly 1`] = `
+[
+  {
+    "distance": 9,
+    "time": 7,
+  },
+  {
+    "distance": 40,
+    "time": 15,
+  },
+  {
+    "distance": 200,
+    "time": 30,
+  },
+]
+`;
