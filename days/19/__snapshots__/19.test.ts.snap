@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`19 part one parses test input 1`] = `
+{
+  "parts": [
+    {
+      "a": 1222,
+      "m": 2655,
+      "s": 2876,
+      "x": 787,
+    },
+    {
+      "a": 2067,
+      "m": 44,
+      "s": 496,
+      "x": 1679,
+    },
+    {
+      "a": 79,
+      "m": 264,
+      "s": 2244,
+      "x": 2036,
+    },
+    {
+      "a": 466,
+      "m": 1339,
+      "s": 291,
+      "x": 2461,
+    },
+    {
+      "a": 2188,
+      "m": 1623,
+      "s": 1013,
+      "x": 2127,
+    },
+  ],
+  "workflows": {
+    "crn": {
+      "fallbackLabel": "R",
+      "label": "crn",
+      "rules": [
+        {
+          "operator": ">",
+          "property": "x",
+          "resultLabel": "A",
+          "value": 2662,
+        },
+      ],
+    },
+    "gd": {
+      "fallbackLabel": "R",
+      "label": "gd",
+      "rules": [
+        {
+          "operator": ">",
+          "property": "a",
+          "resultLabel": "R",
+          "value": 3333,
+        },
+      ],
+    },
+    "hdj": {
+      "fallbackLabel": "pv",
+      "label": "hdj",
+      "rules": [
+        {
+          "operator": ">",
+          "property": "m",
+          "resultLabel": "A",
+          "value": 838,
+        },
+      ],
+    },
+    "in": {
+      "fallbackLabel": "qqz",
+      "label": "in",
+      "rules": [
+        {
+          "operator": "<",
+          "property": "s",
+          "resultLabel": "px",
+          "value": 1351,
+        },
+      ],
+    },
+    "lnx": {
+      "fallbackLabel": "A",
+      "label": "lnx",
+      "rules": [
+        {
+          "operator": ">",
+          "property": "m",
+          "resultLabel": "A",
+          "value": 1548,
+        },
+      ],
+    },
+    "pv": {
+      "fallbackLabel": "A",
+      "label": "pv",
+      "rules": [
+        {
+          "operator": ">",
+          "property": "a",
+          "resultLabel": "R",
+          "value": 1716,
+        },
+      ],
+    },
+    "px": {
+      "fallbackLabel": "rfg",
+      "label": "px",
+      "rules": [
+        {
+          "operator": "<",
+          "property": "a",
+          "resultLabel": "qkq",
+          "value": 2006,
+        },
+        {
+          "operator": ">",
+          "property": "m",
+          "resultLabel": "A",
+          "value": 2090,
+        },
+      ],
+    },
+    "qkq": {
+      "fallbackLabel": "crn",
+      "label": "qkq",
+      "rules": [
+        {
+          "operator": "<",
+          "property": "x",
+          "resultLabel": "A",
+          "value": 1416,
+        },
+      ],
+    },
+    "qqz": {
+      "fallbackLabel": "R",
+      "label": "qqz",
+      "rules": [
+        {
+          "operator": ">",
+          "property": "s",
+          "resultLabel": "qs",
+          "value": 2770,
+        },
+        {
+          "operator": "<",
+          "property": "m",
+          "resultLabel": "hdj",
+          "value": 1801,
+        },
+      ],
+    },
+    "qs": {
+      "fallbackLabel": "lnx",
+      "label": "qs",
+      "rules": [
+        {
+          "operator": ">",
+          "property": "s",
+          "resultLabel": "A",
+          "value": 3448,
+        },
+      ],
+    },
+    "rfg": {
+      "fallbackLabel": "A",
+      "label": "rfg",
+      "rules": [
+        {
+          "operator": "<",
+          "property": "s",
+          "resultLabel": "gd",
+          "value": 537,
+        },
+        {
+          "operator": ">",
+          "property": "x",
+          "resultLabel": "R",
+          "value": 2440,
+        },
+      ],
+    },
+  },
+}
+`;
