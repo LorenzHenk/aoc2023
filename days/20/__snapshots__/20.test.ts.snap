@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`20 part one parsing works with test input 1`] = `
+{
+  "a": {
+    "outputModules": [
+      "b",
+    ],
+    "state": false,
+    "type": "flip-flop",
+  },
+  "b": {
+    "outputModules": [
+      "c",
+    ],
+    "state": false,
+    "type": "flip-flop",
+  },
+  "broadcaster": {
+    "outputModules": [
+      "a",
+      "b",
+      "c",
+    ],
+    "type": "broadcaster",
+  },
+  "c": {
+    "outputModules": [
+      "inv",
+    ],
+    "state": false,
+    "type": "flip-flop",
+  },
+  "inv": {
+    "inputs": {
+      "c": "low",
+    },
+    "outputModules": [
+      "a",
+    ],
+    "type": "conjunction",
+  },
+}
+`;
